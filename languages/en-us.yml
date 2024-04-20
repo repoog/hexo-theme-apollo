@@ -1,0 +1,12 @@
+prev: PREV
+next: NEXT
+prev_post: PREV
+next_post: NEXT
+more: More
+translated: Translation · Original Link
+
+categories: 'categories: %s'
+tags: 'tags: '
+
+wordcount: 'about %s words'
+min2read: 'to read %s mins'

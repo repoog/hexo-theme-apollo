@@ -2,9 +2,9 @@ main.container {
     margin: 2em 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
     .wrap {
-        width: 700px;
+        width: 750px;
         margin: 0 auto;
     }
     header {
@@ -12,7 +12,7 @@ main.container {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .wrap {
         width: 100%;
     }
@@ -41,9 +41,5 @@ main.container {
             max-width: 300px;
             left: 15px;
         }
-    }
-    .ds-thread,
-    #disqus_thread {
-        margin: 2em 10px;
     }
 }

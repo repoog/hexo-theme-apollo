@@ -2,5 +2,11 @@ prev: 上一页
 next: 下一页
 prev_post: 上一篇
 next_post: 下一篇
-more: ...阅读全文
+more: 阅读全文
 translated: 翻译 · 原文地址
+
+categories: '分类：%s'
+tags: '标签：'
+
+wordcount: '大约 %s 字'
+min2read: '用时 %s 分钟'

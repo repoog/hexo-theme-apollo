@@ -1,21 +1,31 @@
+# Maximum number of menu items is 6.
+# Social media link must has prefix with http or https.
 menu:
-    Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+  Blog: /
+  Archive: /archives/
+  Twitter: https://twitter.com/repoog
+  GitHub: https://github.com/repoog
+  YouTube: https://www.youtube.com/@r3p00g
+  RSS: /atom.xml
 
 favicon: /favicon.png
+# Recommand logo size is 60*60px.
 logo: /favicon.png
 
-# Comment
-# e.g disqus: seansun
-disqus:
-duoshuo:
+# Word Count
+wordcount:
+  enable: true
+  # Average Word Length: ZH≈2, EN≈5
+  awl: 2
+  # Words Per Minute
+  wpm: 60
 
-# Analytics
-# google-analytics:
-# ga: UA-xxxxxxxx-x
+# Comment Plugin
+# Default is utterances.
+utterances:
+  enable: true
+  repo: repoog/repoog-blog
+  label: Comment
 
 # Copyright Infomation
-startyear: 2015
+startYear: 2019

@@ -1,9 +1,13 @@
+//- Post Meta Information
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
-
+        if theme.wordcount
+            .post-word
+                span #{__('wordcount', wordcount(item))}
+                span #{__('min2read', min2read(item, theme.wordcount.awl, theme.wordcount.wpm))}
 
 //- Index Page
 mixin posts()
@@ -18,6 +22,14 @@ mixin posts()
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
+                article.post-tags 
+                    - item.categories.sort('posts').each(function (item) {
+                        span.category #{__('categories', item.name)}
+                    - })
+                    | #{__('tags')}
+                    - item.tags.sort('posts').each(function (item) {
+                        span.tag #{item.name}
+                    - })
         - })
 
 //- Archive Page

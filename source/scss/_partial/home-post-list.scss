@@ -1,7 +1,7 @@
 .home.post-list {
     margin: 2em 0;
     .post-list-item {
-        padding: 1em 0 2em;
+        padding: 1em 0 1em;
         border-bottom: 1px solid #ddd;
         &:last-child {
             border-bottom: 0px;
@@ -16,8 +16,13 @@
         & > ul {
             list-style: initial;
         }
+        margin: 1em 0;
+        letter-spacing: 0.1em;
     }
     .read-more {     
         color: #42b983;
+        display: block;
+        text-align: right;
+        font-size: 1em;
     }
 }

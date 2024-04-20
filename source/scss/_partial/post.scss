@@ -12,6 +12,11 @@
     .post-info {
         color: #7f8c8d;
         margin: 1.2em 0;
+        font-size: 14px;
+        .post-word {
+            display: inline;
+            float: right;
+        }
         span {
             margin-left: 0.5rem;
         }
@@ -23,6 +28,18 @@
             color: white;
             background-color: #E36B6B;
         }
+    }
+}
+
+.post-tags {
+    font-size: 14px;
+    display: flex;
+    .category {
+        margin-right: 10px;
+    }
+    .tag:not(:last-child):after {
+        content: ",";
+        margin-right: 5px;
     }
 }
 
@@ -99,6 +116,7 @@
         background-color: #f66;
         font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     }
+    letter-spacing: 0.1em;
 }
 
 #mask {

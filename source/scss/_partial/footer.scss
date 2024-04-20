@@ -1,5 +1,5 @@
 .paginator {
-    margin: 4em 0;
+    margin: 2em 0;
     text-align: center;
     .prev, .next {
         display: inline-block;
@@ -14,9 +14,4 @@
             background-color: #22bd77;
         }
     }
-}
-
-.ds-thread,
-#disqus_thread {
-    margin-bottom: 2em;
 }

@@ -1,3 +1,4 @@
+//- Paginator of home page.
 mixin home()
     - var prev = page.prev_link
     - var next = page.next_link
@@ -7,6 +8,7 @@ mixin home()
         if page.next
             a.next(href=url_for(next))!= __('next')
 
+//- Paginator of post.
 mixin post()
     - var prev = page.prev ? page.prev.path : false;
     - var next = page.next ? page.next.path : false; 
