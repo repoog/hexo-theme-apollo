@@ -14,6 +14,10 @@
 * 简化和优化部分模板页面；
 * 优化Head页面和Archive页面布局；
 
+### 示例界面
+
+![apollo主题示例站点](./theme-sample.png 'apollo主题示例站点')
+
 ### 主题安装
 
 ``` bash
