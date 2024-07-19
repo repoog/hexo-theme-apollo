@@ -29,3 +29,14 @@ utterances:
 
 # Copyright Infomation
 startYear: 2019
+
+# Feed Configuration
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: false
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
