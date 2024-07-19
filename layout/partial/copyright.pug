@@ -4,3 +4,6 @@
     - var currentYear = new Date().getFullYear();
     - runDate = currentYear == theme.startYear ? currentYear : theme.startYear + ' - ' + currentYear;
     p © #{runDate} #[a(href=config.url)!= config.title] Powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=apolloURL, target="_blank") hexo-theme-apollo].
+
+    if theme.wordcount
+        p #{__('wordtotal', wordtotal(site))}

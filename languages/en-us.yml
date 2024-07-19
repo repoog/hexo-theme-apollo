@@ -10,3 +10,4 @@ tags: 'tags: '
 
 wordcount: 'about %s words'
 min2read: 'to read %s mins'
+wordtotal: '%s words in total'
